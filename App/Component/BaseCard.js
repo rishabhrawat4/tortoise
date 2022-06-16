@@ -28,18 +28,13 @@ export default class BaseCard extends React.Component{
           source={item.imageUri}
           style={styles.imageStyle}
         />
-        <Icon 
+        {/* <Icon 
           name={"sound"}
           type={'AntDesign'}
           style={styles.icon}
-        />
+        /> */}
       </View>
       <View style={styles.detailView}>
-      <Icon 
-          name={"ios-add-circle"}
-          // type={'AntDesign'}
-          style={styles.icon}
-        />
         <Text style={styles.subTitle}>{item.subTitle.toUpperCase()}</Text>
         <Text style={styles.title}>{item.title}<Text style={styles.highlightText}>{item.higlightTitle}</Text></Text>
       </View>

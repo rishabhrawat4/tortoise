@@ -19,8 +19,8 @@ export default StyleSheet.create({
     alignSelf: 'center'
   },
   icon: {
-    width: 20,
-    height: 20,
+    width: 50,
+    height: 50,
     color: 'black',
     borderWidth: 1,
   },
