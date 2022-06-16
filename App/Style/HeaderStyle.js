@@ -3,7 +3,7 @@ import { Colors } from "../Themes";
 
 export default StyleSheet.create({
   container: {
-    flex: 1,
+    // flex: 1,
     // borderWidth: 2,
     flexDirection: 'row',
     padding: 10,
@@ -28,6 +28,7 @@ export default StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: Colors.whiteBackground,
+    elevation: 20,
     shadowColor: Colors.shadow,
     shadowOffset: {
       width: 5,
@@ -39,5 +40,7 @@ export default StyleSheet.create({
   logo: {
     height: 40,
     width: 40,
+    elevation: 4,
+    shadowColor: Colors.shadow
   }
 })
