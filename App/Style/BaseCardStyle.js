@@ -19,10 +19,16 @@ export default StyleSheet.create({
     alignSelf: 'center'
   },
   icon: {
+    position: 'absolute',
+    bottom: 15,
+    right: 15,
     width: 50,
-    height: 50,
-    color: 'black',
-    borderWidth: 1,
+    height: 30,
+    textAlign: 'center',
+    textAlignVertical: 'center',
+    color: 'white',
+    borderRadius: 6,
+    backgroundColor: Colors.background,
   },
   detailView: {
     paddingHorizontal: 20,

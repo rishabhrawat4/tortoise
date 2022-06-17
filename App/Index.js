@@ -38,7 +38,7 @@ export default class Index extends React.Component {
         subTitle: "Make my trip Savings Plan",
         title: "Save up for the next Vacation and ",
         higlightTitle: "get 10% Cashback",
-        imageUri: require('./Images/iphone.png'),
+        imageUri: require('./Images/sea.jpg'),
 
       }
     ]

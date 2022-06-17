@@ -19,8 +19,10 @@ export default StyleSheet.create({
     opacity: 0.65
   },
   title: {
-    fontSize: 24,
-    color: Colors.title
+    fontSize: 28,
+    color: Colors.title,
+    fontFamily: 'sans-serif-medium',
+    fontWeight: '600'
   },
   rightView: {
     // borderWidth: 1,
@@ -40,7 +42,6 @@ export default StyleSheet.create({
   logo: {
     height: 40,
     width: 40,
-    elevation: 4,
     shadowColor: Colors.shadow
   }
 })

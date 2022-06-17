@@ -5,9 +5,7 @@ import {
   Image,
   FlatList,
 } from 'react-native';
-import {
-  Icon
-} from 'native-base';
+import Icon from 'react-native-vector-icons/AntDesign';
 import styles from '../Style/BaseCardStyle';
 import PropTypes from 'prop-types'; 
 
@@ -28,11 +26,11 @@ export default class BaseCard extends React.Component{
           source={item.imageUri}
           style={styles.imageStyle}
         />
-        {/* <Icon 
-          name={"sound"}
-          type={'AntDesign'}
+        <Icon   
+          name="sound" 
+          size={20} 
           style={styles.icon}
-        /> */}
+        />
       </View>
       <View style={styles.detailView}>
         <Text style={styles.subTitle}>{item.subTitle.toUpperCase()}</Text>
