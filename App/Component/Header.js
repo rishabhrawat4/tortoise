@@ -24,7 +24,7 @@ export default class Header extends React.Component{
         </View>
         <View style={styles.rightView}>
           <Image 
-            source={require("../Images/tortoiseLogo.png")}
+            source={require("../Images/tortoiseLogo.jpg")}
             style={styles.logo}
           />
         </View>

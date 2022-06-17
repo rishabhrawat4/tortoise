@@ -17,18 +17,18 @@ export default class Index extends React.Component {
         subTitle: "Iphone Savings Plan",
         title: "Save up for the next Iphone and ",
         higlightTitle: "get 10% Cashback",
-        imageUri: require('./Images/iphone.png'),
+        imageUri: require('./Images/iphone.jpg'),
         desc: [
           {
-            image: require('./Images/truck.png'),
+            image: require('./Images/truck.jpg'),
             name: 'Priority Delivery'
           },
           {
-            image: require('./Images/charger.png'),
+            image: require('./Images/charger.jpg'),
             name: 'Free Charger',
           },
           {
-            image: require('./Images/giftBox.png'),
+            image: require('./Images/giftBox.jpg'),
             name: 'Tortoise Merch'
           }
         ]
